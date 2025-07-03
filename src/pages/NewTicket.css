@@ -1,0 +1,85 @@
+.new-ticket-container {
+  padding: 20px 40px;
+}
+
+.new-ticket-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.ticket-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.ticket-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.ticket-form input,
+.ticket-form select,
+.ticket-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.ticket-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+.subject-full {
+  grid-column: span 2;
+}
+
+.description-area {
+  height: 140px;
+  resize: none;
+  position: relative;
+}
+
+.attachment-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #333;
+}
+
+.bottom-section {
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.captcha-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.submit-button {
+  padding: 10px 30px;
+  background-color: #2cd79f;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #22c38c;
+}

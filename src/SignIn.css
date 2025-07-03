@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.signin-container {
+  background-color: #4ad7c2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-box {
+  background-color: #bff0e5;
+  padding: 40px;
+  border-radius: 8px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #000;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.signin-button {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  background-color: #00c12b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signin-button:hover {
+  background-color: #009d24;
+}
+
+.link-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.forgot-password {
+  font-size: 13px;
+  color: red;
+  text-decoration: none;
+}
+
+.signup {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  background-color: #0075ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #005ddb;
+}
