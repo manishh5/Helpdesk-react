@@ -77,7 +77,7 @@ const MyTickets = () => {
           {tickets.map((t) => (
             <tr key={t.id}>
               <td>
-                <a href="#">{t.id}</a>
+                <a href="/somewhere">{t.id}</a>
               </td>
               <td>{t.subject}</td>
               <td>
