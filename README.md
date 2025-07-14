@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ##Live Netlify link
-helpdesk-system.netlify.app
+https://helpdesk-system.netlify.app/
 
 ## Available Scripts
 
